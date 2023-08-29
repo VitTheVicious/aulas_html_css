@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Básico</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="eu não sei ._." required->
+
+            <!-- imput radio -->
+
+            <div>
+                <p>Vc é legal?</p>
+
+                <div>
+                    <input type="radio" id="sim" name="resposta">
+                    <label for="sim">Sim</label>
+                </div>
+                <div>
+                    <input type="radio" id="não" name="resposta">
+                    <label for="não">Não</label>
+                </div>
+            </div>
+
+            <!-- select -->
+
+            <div>
+                <label for="gender">Select gender:</label>
+                <select name="gender" id="gender">
+                    <option disabled selected>N/A</option>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                </select>
+            </div>
+
+            <button>Enviar</button>
+        </div>
+    </form>
+</body>
+</html>

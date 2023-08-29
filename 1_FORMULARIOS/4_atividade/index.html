@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <p>INPUT</p>
+            
+            <div>
+             <label for="nome">Nome:</label>
+             <input type="text" id="nome" placeholder="....">
+            </div>
+
+            <div>
+             <label for="cor">Cor favorita:</label>
+             <input type="color" id="cor">
+            </div>
+
+            <div>
+             <label for="ch">Vivo?</label>
+             <input type="checkbox" id="ch">
+            </div>
+
+            <div>
+             <label for="data">Data:</label>
+             <input type="date" id="data">
+            </div>
+        </div>
+
+        <div>
+            <p>RADIO</p>
+            <p>Gender:</p>
+            
+            <div>
+                <input type="radio" id="homem" name="resposta">
+                <label for="homem">Homem</label>
+            </div>
+
+            <div>
+                <input type="radio" id="mulher" name="resposta">
+                <label for="mulher">Mulher</label>
+            </div>
+
+            <div>
+                <input type="radio" id="helicopter" name="resposta">
+                <label for="helicopter">Helicopter</label>
+            </div>
+
+            <div>
+                <input type="radio" id="não" name="resposta">
+                <label for="não">Prefiro não falar</label>
+            </div>
+        </div>
+
+        <div>
+            <p>SELECT</p>
+
+            <label for="idade">Qual é a sua facha etaria?</label>
+            <select name="idade" id="idade">
+                <option disabled selected>N/A</option>
+                <option value="-18">Abaixo de 18</option>
+                <option value="+18">Entre 18 á 40</option>
+                <option value="-60">Entre 40 á 60</option>
+                <option value="+60">Maior de 60</option>
+            </select>
+        </div>
+        
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
