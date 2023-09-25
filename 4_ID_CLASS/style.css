@@ -1,3 +1,9 @@
+#titulo-id {
+    color: darkorange;
+}
+
+/* id tem prioridade sobre os outros */
+
 .fundo-azul {
     background-color: rgb(230, 56, 230);
 }
@@ -5,6 +11,8 @@
 .texto-vermelho {
     color: red;
 }
+
+/* class tem uma prioridade maior do que os normais */
 
 h2 {
     color: darkviolet;
