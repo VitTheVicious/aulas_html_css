@@ -1,0 +1,22 @@
+.fundo-azul {
+    background-color: rgb(230, 56, 230);
+}
+
+.texto-vermelho {
+    color: red;
+}
+
+h2 {
+    color: darkviolet;
+}
+
+p {
+    color: blue
+}
+
+h2 {
+    color: rgb(166, 0, 0);
+}
+
+/* cascata */
+/* especificação */
